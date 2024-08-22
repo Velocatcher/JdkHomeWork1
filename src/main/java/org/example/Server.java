@@ -11,7 +11,7 @@ import java.util.List;
 public class Server extends JFrame {
     public static final int WIDTH = 400;
     public static final int HEIGHT = 300;
-    public static final String LOG_PATH = "src/server/log.txt";
+    public static final String LOG_PATH = "src/main/java/org/example/log.txt";
 
     List<Client> clientList;
 
@@ -63,8 +63,8 @@ public class Server extends JFrame {
     }
 
     private void answerAll(String text){
-        for (Client clientGUI: clientList){
-            clientGUI.answer(text);
+        for (Client client: clientList){
+            client.answer(text);
         }
     }
 
