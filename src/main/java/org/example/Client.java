@@ -85,8 +85,8 @@ public class Client extends JFrame {
         headerPanel = new JPanel(new GridLayout(2, 3));
         tfIPAddress = new JTextField("127.0.0.1");
         tfPort = new JTextField("8189");
-        tfLogin = new JTextField("Ivan Ivanovich");
-        password = new JPasswordField("123456");
+        tfLogin = new JTextField("Petr Petrovich");
+        password = new JPasswordField("12345678");
         btnLogin = new JButton("login");
         btnLogin.addActionListener(new ActionListener() {
             @Override
